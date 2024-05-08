@@ -1,4 +1,3 @@
-# customauth/forms.py
 from django import forms
 from .models import CustomUser
 
@@ -6,4 +5,4 @@ from .models import CustomUser
 class CustomUserForm(forms.ModelForm):
     class Meta:
         model = CustomUser
-        fields = ["email", "password"]  # Add any additional fields as needed
+        fields = ["email", "password"] 

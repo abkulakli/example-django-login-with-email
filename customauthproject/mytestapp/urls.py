@@ -8,4 +8,5 @@ urlpatterns = [
     path("", views.index_endpoint, name="main"),
     path("no_login_required/", views.no_login_required_endpoint, name="no_login_required_endpoint"),
     path("login_required/", views.login_required_endpoint, name="login_required_endpoint"),
+    path("permission_required/", views.permission_required_endpoint, name="permission_required_endpoint"),
 ]

@@ -1,4 +1,3 @@
-# customauth/managers.py
 from django.contrib.auth.models import BaseUserManager
 
 
