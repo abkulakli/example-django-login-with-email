@@ -13,3 +13,10 @@ class CustomUser(AbstractUser):
 
     def __str__(self):
         return self.email
+
+
+class CustomPermission(models.Model):
+    class Meta:
+        permissions = (("permission1", "Can perform tasks requiring permission1"),
+                       ("permission2", "Can perform tasks requiring permission2"),
+                       ("permission3", "Can perform tasks requiring permission3"))
